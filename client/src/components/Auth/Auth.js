@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 import { GoogleLogin } from 'react-google-login';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 
-import Icon from './Icon';
+import Icon from './icon';
 import { signin, signup } from '../../actions/auth';
 import { AUTH } from '../../constants/actionTypes';
 import useStyles from './styles';
@@ -103,6 +103,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-
-
-//337252648803-1kjuk38t71pes2h4uofl1vck505qsp2g.apps.googleusercontent.com
